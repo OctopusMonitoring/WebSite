@@ -46,7 +46,8 @@ section.Octopus h3{
 }
 
 section.Octopus svg{
-	height: 70vh;
+	max-width: 100vh;
+	width: 350px;
 }
 
 main {
