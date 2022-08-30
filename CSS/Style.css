@@ -1,0 +1,168 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(45deg, #098330, #80BA27);
+}
+
+header{
+	height: 100vh;
+	width: 100%;
+}
+
+nav.Menu{
+	width: 100%;
+	height: 40px;
+	background-color: rgba(255, 255, 255, 0.3);
+	display: flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav.Menu a{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+section.Octopus{
+	text-align: center;
+	color: #fff;
+}
+
+section.Octopus h1{
+	font-weight: bold;
+	animation: 2s Monitoring;
+}
+
+section.Octopus h3{
+	animation: 2s opacity;
+}
+
+section.Octopus svg{
+	max-width: 100vw;
+	width: 350px;
+}
+
+main.Home {
+	background-color: #fff;
+	box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.9);
+}
+
+main h1{
+	text-align: center;
+	color: #80BA27;
+	font-weight: bold;
+}
+
+main article{
+	padding: 20px;
+}
+
+hr.diviseur{
+  margin-top: -2px;
+  margin-bottom: -2px;
+  height: 2px;
+  background: linear-gradient(45deg, #098330, #80BA27);
+}
+
+@keyframes Monitoring{
+	0%{
+		letter-spacing: 90px;
+	}
+	100%{
+		letter-spacing: initial;
+	}
+}
+
+@keyframes opacity{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: initial;
+	}
+}
+
+td.menu{
+  width: 250px;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  min-height: 100vh;
+  max-height: 100vh;
+  width: 250px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background:  -webkit-linear-gradient(45deg, #098330, #80BA27);
+  overflow-x: hidden;
+  padding-top: 20px;
+  position: fixed;
+  overflow: scroll;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background: #292929;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background: -webkit-linear-gradient(45deg, #098330, #80BA27);
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+table.MonitoringMenu{
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  margin: -1px;
+}
+
+main{
+	width: 100%;
+	min-height: calc(100vh - 40px);
+}

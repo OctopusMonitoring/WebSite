@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Manuel</title>
+	<link rel="icon" type="image/png" href="IMG/Logo.png" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="CSS/Style.css">
+</head>
+<body>
+	<table class="ManuelMenu">
+		<tr>
+			<td class="menu noprint">
+				<div class="sidenav">
+				  <a href="#presentation">Présentation</a>
+				  <a href="#1">1. Installation</a>
+				  <a href="#2">2. Connexion</a>
+				  <button class="dropdown-btn">3. Raspberry
+				    <i class="fa fa-caret-down"></i>
+				  </button>
+				  <div class="dropdown-container">
+				    <button class="dropdown-btn">3.1. Catégorie
+					    <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-container">
+					    <a href="#3.1.1"> 3.1.1. Ajouter</a>
+					    <a href="#3.1.2"> 3.1.2. Supprimer</a>
+					</div>
+					<button class="dropdown-btn">3.2. Raspberry
+					    <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-container">
+					    <a href="#3.2.1"> 3.2.1. Ajouter</a> 
+					    <a href="#3.2.2"> 3.2.2. Supprimer</a>
+					    <a href="#3.2.3"> 3.2.3. État</a>
+					</div>
+					<button class="dropdown-btn">3.3. TabRotator
+					    <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-container">
+						<a href="#3.3.0"> 3.3.0. Mise en place</a> 
+					    <a href="#3.3.1"> 3.3.1. Ajouter un fichier</a> 
+					    <a href="#3.3.2"> 3.3.2. Supprimer un fichier</a>
+					    <a href="#3.3.3"> 3.3.3. Paramétres </a> 
+					    <a href="#3.3.4"> 3.3.4. Ajouter une URL</a> 
+					    <a href="#3.3.5"> 3.3.5. Supprimer une URL</a>
+					</div>
+					<button class="dropdown-btn">3.4. OctoPage
+					    <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-container">
+					    <a href="#3.4.1"> 3.4.1. Ajouter une page</a> 
+					    <a href="#3.4.2"> 3.4.2. Supprimer une page</a>
+					    <a href="#3.4.3"> 3.4.3. Ajouter un lien</a>
+					    <a href="#3.4.4"> 3.4.4. Supprimer un lien</a>
+					    <button class="dropdown-btn">3.4.5. Fonctionnalités
+						    <i class="fa fa-caret-down"></i>
+						</button>
+						<div class="dropdown-container">
+						    <a href="#3.4.5.1"> 3.4.5.1. Cacher</a> 
+						    <a href="#3.4.5.2"> 3.4.5.2. Ordre</a>
+						</div>
+					</div>
+					<button class="dropdown-btn">3.5. OctoLogin
+					    <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-container">
+					    <a href="#3.5.1"> 3.5.1. Ajouter</a>
+					    <a href="#3.5.2"> 3.5.2. Supprimer</a>
+					</div>
+					<button class="dropdown-btn">3.6. Fonctionnalités
+					    <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-container">
+					    <a href="#3.5.1"> 3.6.1. Température</a>
+					</div>
+				  </div>
+				  <a href="#4">4. Widgets</a>
+				  <button class="dropdown-btn">5. Dashboards
+				    <i class="fa fa-caret-down"></i>
+				  </button>
+				  <div class="dropdown-container">
+				  	<button class="dropdown-btn">5.1 Pages
+					    <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-container">
+					    <a href="#5.1.1"> 5.1.1. Ajouter</a>
+					    <a href="#5.1.2"> 5.1.2. Supprimer</a>
+					    <a href="#5.1.3"> 5.1.3. Ajouter un Widget</a>
+					    <a href="#5.1.4"> 5.1.4. Supprimer un Widget</a>
+					    <a href="#5.1.5"> 5.1.5. Modifier un Widget</a>
+					    <a href="#5.1.6"> 5.1.6. Construire le dashboard</a>
+					    <button class="dropdown-btn">5.1.7. Fonctionnalités
+						    <i class="fa fa-caret-down"></i>
+						</button>
+						<div class="dropdown-container">
+						    <a href="#5.1.7.1"> 5.1.7.1. Mise en page</a>
+						    <a href="#5.1.7.2"> 5.1.7.2. Voir le dashboard</a>
+						    <a href="#5.1.7.3"> 5.1.7.3. Lier à une page</a>
+						</div>
+					</div>
+					<button class="dropdown-btn">5.2 Widgets
+					    <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-container">
+					    <a href="#5.2.1"> 5.2.1. Ajouter</a>
+					    <a href="#5.2.2"> 5.2.2. Argument</a>
+					    <a href="#5.2.3"> 5.2.3. Supprimer</a>
+					</div>
+					<button class="dropdown-btn">5.3 Jobs
+					    <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-container">
+					    <a href="#5.3.1"> 5.3.1. Ajouter</a>
+					    <a href="#5.3.2"> 5.3.2. Modifier</a>
+					    <a href="#5.3.3"> 5.3.3. Supprimer</a>
+					</div>
+				  </div>
+				  <a href="#6">6. Dashing.io</a>
+				  <a href="#7">7. RemoteConfig</a>
+				  <a href="#8">8. Log</a>
+				  <a href="#9">9. Autre</a>
+				</div>
+			</td>
+			<td>
+			<td>
+				<main class="BodyManuel">
+					<h1 align="center">Manuel d'utilisation</h1>
+					<br>
+					<h2 id="presentation">Présentation</h2>
+					<br>
+					<h2 id="1"><span>1.</span> Installation</h2>
+					<br>
+					<div class="Update">
+						<h4><i class="fa-solid fa-wrench"></i> Future Update</h4>
+						<p>Dans le futur l'installation sera automatique avec une simple commande</p>
+					</div>
+					<br>
+					<h2 id="2"><span>2.</span> Connexion</h2>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/login.png" style="width: 400px!important;">
+					</div>
+					<br>
+					<p>Pour accéder à la page de gestion d'Octopus il vous faut entrer le lien suivant : <code>http://[IP]]/ADMIN/</code> .<br><br>
+					Afin de pouvoir entrer dans l'interface de gestion d'Octopus une authentification est demandée. Elle est du type LDAP et est connectée directement à l'active directory.<br><br>
+					Une restriction supplémentaire a été ajoutée. Seuls les utilisateurs se trouvant dans une OU spécifique peuvent accéder à celui-ci.<br><br>
+					Une fois la connexion réussie vous serez redirigé vers la page d'accueil.</p>
+					<br>
+					<div class="Info">
+						<h4><i class="fa-solid fa-circle-info"></i> Info</h4>
+						<p>Un Utilisateur local est également disponible dans le cas où LDAP ne fonctionnerait plus</p>
+					</div>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/Home.png">
+					</div>
+					<br>
+					<h2 id="3"><span>3.</span> Raspberry</h2>
+					<h3 id="3.1"><span>3.1.</span> Catégorie</h3>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/Category.png">
+					</div>
+					<br>
+					<h4 id="3.1.1"><span>3.1.1.</span> Ajouter une Catégorie</h4>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/Ajouter.png" height="100px"></td>
+							<td>
+								<p>Pour l'ajout d'une <b>nouvelle Catégorie</b> cliquez sur la case "<b>Ajouter</b>". Un pop-up apparaîtra.</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<div class="Warning">
+						<h4><i class="fa-solid fa-triangle-exclamation"></i> Attention</h4>
+						<p>Le nom de la catégorie ne doit pas contenir d'espaces ni de caractères spéciaux</p>
+					</div>
+					<br>
+					<h4 id="3.1.2"><span>3.1.2.</span> Supprimer une Catégorie</h4>
+					<br>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/DeleteCategory.png" height="100px"></td>
+							<td>
+								<p>Pour supprimer une <b>Catégorie</b> cliquez sur l'icône "<b>Poubelle</b>". Un message vous demandera la confirmation</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<div class="Warning">
+						<h4><i class="fa-solid fa-triangle-exclamation"></i> Attention</h4>
+						<p>Toutes les machines de la catégorie doivent être supprimées avant de pouvoir supprimer la catégorie.</p>
+					</div>
+					<br>
+					<h3 id="3.2"><span>3.2.</span> Raspberry</h3>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/Device.png">
+					</div>
+					<br>
+					<h4 id="3.2.1"><span>3.2.1.</span> Ajouter une Machine</h4>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/Ajouter.png" height="100px"></td>
+							<td>
+								<p>Pour l'ajout d'une <b>nouvelle Machine</b> cliquez sur la case "<b>Ajouter</b>". Un pop-up apparaîtra.</p>
+							</td>
+						</tr>
+					</table>
+					<h4 id="3.2.2"><span>3.2.2.</span> Supprimer une Machine</h4>
+					<br>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/DeleteDevice.png" height="100px"></td>
+							<td>
+								<p>Pour supprimer une <b>Machine</b> cliquez sur l'icône "<b>Poubelle</b>". Un message vous demandera la confirmation</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<h4 id="3.2.3"><span>3.2.3.</span> État de la Machine</h4>
+					<br>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/DeleteDevice.png" height="100px"></td>
+							<td>
+								<ul>
+									<li><font color="green"><i class="fa-solid fa-circle"></i></font> Indique que la machine est bien connectée</li>
+									<li><font color="red"><i class="fa-solid fa-circle"></i></font> Indique que la machine n'est pas connectée</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<h3 id="3.3"><span>3.3.</span> TabRotator</h3>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/TabRotator.png">
+					</div>
+					<br>
+					<h4 id="3.3.0"><span>3.3.0.</span> Mise en place de TabRotator</h4>
+					<br>
+					<p>Télécharger l'extension TabRotator <a href="https://chrome.google.com/webstore/detail/tab-rotate/pjgjpabbgnnoohijnillgbckikfkbjed?hl=en-GB">Télécharger</a></p>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/TabRotatorSettings.png">
+					</div>
+					<br>
+					<p>Ensuite, Cochez la case Remote URL et entrez l'URL du fichier Json (Voir Point <a href="#3.3.1">3.3.1</a>)</p>
+					<br>
+					<h4 id="3.3.1"><span>3.3.1.</span> Ajouter un fichier TabRotator</h4>
+					<br>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/AddTabRotator.png" height="80px"></td>
+							<td>
+								<p>Pour ajouter un nouveau fichier Json pour TabRotator, cliquez sur l'icône <i class="fa-solid fa-circle-plus"></i></p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<p>Ensuite, entrez le nom du fichier Json</p>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/PopupTabRotator.png" style="width: 400px!important;">
+					</div>
+					<br>
+					<p>Une fois créer un lien sera généré afin de pouvoir l'utiliser sur TabRotator <code>http://[IP]/computer/[DEVICE]/tabrotator/[FILE_NAME].json</code></p>
+					<br>
+					<h4 id="3.3.2"><span>3.3.2.</span> Supprimer un fichier TabRotator</h4>
+					<br>
+					<table class="info">
+						<tr>
+							<td><button class="btn btn-danger">Supprimer ce fichier TabRotator</button></td>
+							<td>
+								<p>Pour supprimer un fichier TabRotator cliquez sur le bouton "<b>Supprimer ce fichier TabRotator</b>" qui se trouve en bas à droite</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<h4 id="3.3.3"><span>3.3.3.</span> Paramétres TabRotator</h4>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/SettingsTabRotator.png">
+					</div>
+					<br>
+					<ul>
+						<li><b>Settings Reload Interval Minutes</b> : Interval entre le Refresh du fichier de configuration <i>(Suggestions : 1)</i></li>
+						<li><b>Auto Start</b> : Démarrage automatique de l'extension avec le navigateur <i>(Suggestions : OUI)</i></li>
+						<li><b>Close Existing Tabs</b> : Ferme les ongles actifs au démarrage de l'extension <i>(Suggestions : OUI)</i></li>
+						<li><b>Full Screen</b> : Permets de mettre le navigateur en plein écran <i>(Suggestions : OUI)</i></li>
+						<li><b>Lazy Load Tabs</b> : Supprimer tous les onglets inactifs <i>(Suggestions : NON)</i></li>
+					</ul>
+					<br>
+					<h4 id="3.3.4"><span>3.3.4.</span> Ajouter une URL TabRotator</h4>
+					<br>
+					<table class="info">
+						<tr>
+							<td><button class="btn btn-primary">Ajouter</button></td>
+							<td>
+								<p>Afin de rajouter une URL cliquez sur le button "<b>Ajouter</b>"</p>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="IMG/Step_Capture/AddURL.png" height="40px"></td>
+							<td>
+								<p>Complétez  tez ensuite les informations demandées (URL, Durée et interval de Refresh de la page)</p>
+							</td>
+						</tr>
+						<tr>
+							<td><button class="btn btn-success">Enregistrer</button></td>
+							<td>
+								<p>Une fois terminé, cliquez sur "<b>Enregistrer</b>"</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<h4 id="3.3.5"><span>3.3.5.</span> Supprimer une URL TabRotator</h4>
+					<br>
+					<table class="info">
+						<tr>
+							<td><button class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
+							<td>
+								<p>Pour supprimer une URL cliquez sur la poubelle à droite de la ligne que vous souhaitez effacer</p>
+							</td>
+						</tr>
+						<tr>
+							<td><button class="btn btn-success">Enregistrer</button></td>
+							<td>
+								<p>Une fois terminé, cliquez sur "<b>Enregistrer</b>"</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<h3 id="3.4"><span>3.4.</span> OctoPage</h3>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/Octopage.png">
+					</div>
+					<br>
+					<h4 id="3.4.1"><span>3.4.1.</span> Ajouter une page</h4>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/AddOctoPage.png" height="80px"></td>
+							<td>
+								<p>Pour ajouter une nouvelle page OctoPage cliquez sur l'icône <i class="fa-solid fa-circle-plus"></i> et un pop-up apparaîtra.</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<p>Pour la création d'une page, il vous est demandé plusieurs choses :</p>
+					<ul>
+						<li><b>Nom de la page</b> : Définit le nom de la page web. C'est celui-ci que vous devrez entrer dans l'URL pour pouvoir y accéder.</li>
+						<li><b>Temps entre les pages</b> : Définit le temps entre chaque changement de page. Celui-ci sera appliqué à l'ensemble des dashboards.</li>
+					</ul>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/AddPageP.png" style="width: 400px!important;">
+					</div>
+					<br>
+					<div class="Info">
+						<h4><i class="fa-solid fa-circle-info"></i> Info</h4>
+						<p>Le temps entre les pages est par défaut de 30 secondes. Si cela vous convient vous pouvez laisser ce champ vide</p>
+					</div>
+					<br>
+					<div class="Warning">
+						<h4><i class="fa-solid fa-triangle-exclamation"></i> Attention</h4>
+						<p>Le nom de la page ne doit pas contenir d'espaces ni de caractères spéciaux car cela pourrait causer des problèmes par la suite au niveau de l'accès à la page</p>
+					</div>
+					<br>
+					<h4 id="3.4.2"><span>3.4.2.</span> Supprimer une page</h4>
+					<br>
+					<table class="info">
+						<tr>
+							<td><button class="btn btn-danger">Supprimer cette page</button></td>
+							<td>
+								<p>Afin de supprimer une page, vous devez cliquer sur le bouton "Supprimer cette page".</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<p>Un message vous avertira que la suppression de cette page entrainera également la <b>suppression</b> des différents <b>liens</b> que vous auriez pu ajouter. Si vous souhaitez toujours supprimer celui-ci, cliquez sur "<b>OK</b>".</p>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/WarningPage.png" style="width: 400px!important;">
+					</div>
+					<br>
+					<h4 id="3.4.3"><span>3.4.3.</span> Ajouter un lien</h4>
+					<br>
+					<table class="info">
+						<tr>
+							<td><button class="btn btn-success">Ajouter un dashboard</button></td>
+							<td>
+								<p>Pour ajouter un lien à votre page, cliquez sur le bouton "Ajouter un dashboard". Un pop-up apparaîtra.</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<p>Ce pop-up vous demandera l'information suivante :</p>
+					<ul>
+						<li><b>Lien du Dashboard</b> : Permets d'ajouter un lien que l'on souhaite afficher sur la page.</li>
+					</ul>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/AddLink.png" style="width: 400px!important;">
+					</div>
+					<br>
+					<div class="Info">
+						<h4><i class="fa-solid fa-circle-info"></i> Info</h4>
+						<p>Le lien du dashboard doit obligatoirement commencer par <b>http://</b> ou <b>https://</b></p>
+					</div>
+					<br>
+					<h4 id="3.4.4"><span>3.4.4.</span> Supprimer un lien</h4>
+					<br>
+					<p>Pour supprimer un lien, c'est très simple : cliquez sur la <b>poubelle</b> qui se trouve à droite du lien que vous désirez supprimer.</p>
+					<br>
+					<p>Un pop-up vous demandera une confirmation. Cliquez sur "<b>OK</b>" si vous n’avez pas changé d’avis.</p>
+					<br>					
+					<h4 id="3.4.5"><span>3.4.5.</span> Fonctionnalités</h4>
+					<h5 id="3.4.5.1"><span>3.4.5.1.</span> Cacher un dashboard</h5>
+					<br>
+					<p>La fonctionnalité "Afficher" est utilisée pour masquer une page.</p>
+					<ul>
+						<li><i class="fa-solid fa-eye"></i> : Pour cacher un lien, cliquez sur l'oeil à droite du lien que vous souhaitez cacher. Celui-ci sera automatiquement retiré de l'ordre.</li>
+						<li><i class="fa-solid fa-eye-slash"></i> : Pour revoir le lien que vous avez caché, vous devez cliquer sur l'oeil barré. Celui-ci prendra la dernière position disponible.</li>
+					</ul>
+					<h5 id="3.4.5.2"><span>3.4.5.2.</span> Changer l'ordre des dashboards</h5>
+					<br>
+					<div align="center" style="font-size:  80px">
+						<i class="fa-solid fa-arrow-down-long"></i><i class="fa-solid fa-arrow-up-long"></i>	
+					</div>
+					<p>Si vous souhaitez changer l'ordre des différents liens, cliquez sur les flèches situées à gauche de l’écran. La flèche vers le haut sert à monter le lien d’un cran, et la flèche vers le bas le fait descendre d’un cran.</p>
+					<br>
+					<h3 id="3.5"><span>3.5.</span> OctoLogin</h3>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/OctoLogin.png">
+					</div>
+					<br>
+					<h4 id="3.5.1"><span>3.5.1.</span> Ajouter un AutoLogin</h4>
+					<br>
+					<table class="info">
+						<tr>
+							<td><button class="btn btn-primary">Ajouter</button></td>
+							<td>
+								<p>Afin de rajouter une ligne d'AutoLogin cliquez sur le button "<b>Ajouter</b>"</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<p>Complétez les informations suivantes :</p>
+					<ul>
+						<li><b>Nom</b> : Nom de l'autoLogin (Uniquement pour l'utilisateur)</li>
+						<li><b>URL</b> : URL de la page de connexion</li>
+						<li><b>Utilisateur</b> : Utilisateur de la page de login</li>
+						<li><b>Mot de passe</b> : Mot de passe de la page de login</li>
+						<li><b>Délais</b> : Temps avant l'injection de l'utilisateur et mot de passe</li>
+					</ul>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/AddLogin.png">
+					</div>
+					<br>
+					<table class="info">
+						<tr>
+							<td><button class="btn btn-success">Enregistrer</button></td>
+							<td>
+								<p>Une fois terminé, cliquez sur "<b>Enregistrer</b>"</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<h4 id="3.5.2"><span>3.5.2.</span> Supprimer un AutoLogin</h4>
+					<br>
+					<table class="info">
+						<tr>
+							<td><button class="btn btn-danger"><i class="fa-solid fa-trash"></i></button></td>
+							<td>
+								<p>Pour supprimer une ligne cliquez sur la poubelle à droite de la ligne que vous souhaitez effacer</p>
+							</td>
+						</tr>
+						<tr>
+							<td><button class="btn btn-success">Enregistrer</button></td>
+							<td>
+								<p>Une fois terminé, cliquez sur "<b>Enregistrer</b>"</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<h3 id="3.6"><span>3.6.</span> Fonctionnalités</h3>
+					<h4 id="3.6.1"><span>3.6.1.</span> Sonde de température</h4>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/TabRotator.png">
+					</div>
+					<br>
+					<p>Vous pouvez apercevoir en haut à droite la température de votre Raspberry PI. Cette valeur est actualisée toutes les 5 minutes. Vous pouvez cliquer sur cette température afin d'afficher un graphique reprenant les 65 dernières températures.</p>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/Temp.png">
+					</div>
+					<br>
+					<h2 id="4"><span>4.</span> Widgets</h2>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/ScreenWidget.png">
+					</div>
+					<br>
+					<p>Cette page permet la gestion des différents widgets présents sur Dashing.io</p>
+					<br>
+					<div class="Update">
+						<h4><i class="fa-solid fa-wrench"></i> Future Update</h4>
+						<p>Dans le futur un catalogue permettra l'ajout d'autres Widgets interactifs</p>
+					</div>
+					<br>
+					<h2 id="5"><span>5.</span> Dashboard</h2>
+					<h3 id="5.1"><span>5.1.</span> Pages Dashing</h3>
+					<h4 id="5.1.1"><span>5.1.1.</span> Ajouter une page</h4>
+					<p>Pour la création d'un nouveau dashboard sur dashing.io, cliquez sur la case "<b>Ajouter</b>". Une fenêtre pop-up apparaîtra.</p>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/PageDashing.png">
+					</div>
+					<br>
+					<p>Ce pop-up vous demandera l'information suivante :</p>
+					<ul>
+						<li><b>Nom du dashboard</b> : Définit le nom du fichier sur dashing.io qui sera également repris dans l'URL pour y accéder.</li>
+					</ul>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/AddPage.png" style="width: 400px!important;">
+					</div>
+					<br>
+					<div class="Warning">
+						<h4><i class="fa-solid fa-triangle-exclamation"></i> Attention</h4>
+						<p>Le nom du dashboard ne doit pas contenir d'espaces ni de caractères spéciaux car cela pourrait causer des problèmes d’accès à la page.</p>
+					</div>
+					<br>
+					<h4 id="5.1.2"><span>5.1.2.</span> Supprimer une page</h4>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/DeletePage.png">
+					</div>
+					<br>										
+					<table class="info">
+						<tr>
+							<td><button class="btn btn-danger">Supprimer ce dashboard</button></td>
+							<td>
+								Pour supprimer une page, cliquez sur le bouton "<b>Supprimer ce dashboard</b>".
+							</td>
+						</tr>
+					</table>
+					<br>
+					<p>Un message vous avertira que la suppression de ce dashboard entrainera également la <b>suppression</b> des différents <b>Widgets</b> que vous auriez pu ajouter. Si vous n’avez pas changé d’avis, cliquez sur "<b>OK</b>".</p>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/PopupDeletePage.png" style="width: 400px!important;">
+					</div>
+					<br>
+					<h4 id="5.1.3"><span>5.1.3.</span> Ajouter un Widget</h4>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/Page.png">
+					</div>
+					<br>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/Ajouter.png" height="100px"></td>
+							<td>
+								<p>Pour l'ajout d'un <b>nouveau Widget</b> sur votre page dashing.io cliquez sur la case "<b>Ajouter</b>". Un pop-up apparaîtra.</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/AddFrame.png" style="width: 400px!important;">
+					</div>
+					<br>
+					<p>Plusieurs informations vous seront demandées :</p>
+					<ul>
+						<li><b>Nom de la frame</b> : Nom que le Widget portera sur Octopus.</li>
+						<li><b>Type de widget</b> : Type de widget que vous souhaitez utiliser.</li>
+						<li><b>Choix du Job</b> : Sélection du job.</li>
+						<li><b>Un titre</b> : Titre qui sera affiché sur le widget. <i>(Facultatif)</i></li>
+						<li><b>Un sous-titre</b> : Sous-titre qui sera affiché sur le widget. <i>(Facultatif)</i></li>
+						<li><b>La largeur</b> : Largeur en case du widget sur la page de 1 à 4.</li>
+						<li><b>La hauteur</b> : Hauteur en case du widget sur la page de 1 à 4.</li>
+						<li><b>La couleur</b> : Couleur de fond du widget.</li>
+						<li><b>Une redirection</b> : Lien utilisé si l'on clique sur le widget. <i>(Facultatif)</i></li>
+					</ul>
+					<p>Si vous utilisez un Widget qui n'a pas besoin de Job, laissez le champ sur "<b>Default</b>".</p>
+					<br>
+					<div class="Warning">
+						<h4><i class="fa-solid fa-triangle-exclamation"></i> Attention</h4>
+						<p>Le Widget sélectionné doit être en adéquation avec le job que vous souhaitez utiliser.</p>
+					</div>
+					<br>
+					<div class="Warning">
+						<h4><i class="fa-solid fa-triangle-exclamation"></i> Attention</h4>
+						<p>Après l'ajout du widget, cliquez sur le bouton "construire" (<a href="#5.1.6">5.1.6</a>) pour appliquer les changements.</p>
+					</div>
+					<br>
+					<h4 id="5.1.4"><span>5.1.4.</span> Supprimer un Widget</h4>
+					<br>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/DeleteFrame.png" height="100px"></td>
+							<td>
+								<p>Pour la suppression d'un widget sur une page, positionnez votre curseur au-dessus du widget et ensuite cliquez sur la <b>poubelle</b>.</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<div class="Warning">
+						<h4><i class="fa-solid fa-triangle-exclamation"></i> Attention</h4>
+						<p>Après l'ajout du widget, cliquez sur le bouton "construire" (<a href="#5.1.6">5.1.6</a>) pour appliquer les changements.</p>
+					</div>
+					<br>
+					<h4 id="5.1.5"><span>5.1.5.</span> Modifier un Widget</h4>
+					<br>
+					<div class="Update">
+						<h4><i class="fa-solid fa-wrench"></i> Future Update</h4>
+						<p>La fonctionnalité de modification d'un widget n'est pas encore disponible. Toutefois, vous pouvez toujours en supprimer un (<a href="#5.1.4">5.1.4</a>), puis en recréer un nouveau (<a href="#5.1.3">5.1.3</a>).</p>
+					</div>
+					<br>
+					<h4 id="5.1.6"><span>5.1.6.</span> Construire le dashboard</h4>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/Build.png" style="width: 400px!important;">
+					</div>
+					<br>
+					<p>Le bouton « <b>construire</b> » est primordial, car l’ajout des widgets ne se réalisera que si l’on clique dessus.
+					<br>
+					<br>
+					Plusieurs couleurs peuvent apparaître sur le bouton "<b>construire</b>" :</p>
+					<ul>
+						<li><b>Vert</b> : Aucun problème, il n'y a donc pas besoin d'appuyer sur celui-ci.</li>
+						<li><b>Orange</b> : Attention, une modification a été effectuée. Cliquez sur ce bouton pour appliquer ces changements.</li>
+						<li><b>Rouge</b> : Une erreur a été rencontrée.</li>
+					</ul>
+					<br>
+					<h4 id="5.1.7"><span>5.1.7.</span> Fonctionnalités</h4>
+					<h5 id="5.1.7.1"><span>5.1.7.1.</span> Sauvegarder la mise en page</h5>
+					<br>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/SaveLayoutD.png" height="40px"></td>
+							<td>
+								<p>Afin d'<b>enregistrer</b> les différentes <b>positions</b> des widgets se trouvant sur la page Dashing, allez sur la page avec le bouton "<b>Voir le Dashboard</b>" (<a href="#5.1.7.2">5.1.7.2</a>). Effectuez vos déplacements et puis cliquez sur le bandeau "<b>Save this Layout</b>".</p>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="IMG/Step_Capture/CodeLayout.png" height="80px"></td>
+							<td>
+								<p><b>Copiez</b> ensuite le <b>code</b> retourné et retournez sur Octopus.</p>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="IMG/Step_Capture/SaveLayout.png" height="40px"></td>
+							<td>
+								<p>Ensuite cliquez sur le bouton "<b>Nouveau layout</b>" se trouvant en haut de la page.</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<p>Collez ensuite le code donné sur la page du dashboard dans l'emplacement adéquat. Ensuite cliquez sur "<b>Envoyer</b>".</p>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/SaveCodeLayout.png">
+					</div>
+					<br>
+					<div class="Warning">
+						<h4><i class="fa-solid fa-triangle-exclamation"></i> Attention</h4>
+						<p>Après l'ajout du nouveau layout, cliquez sur le bouton "construire" (<a href="#5.1.6">5.1.6</a>) pour appliquer les changements.</p>
+					</div>
+					<br>
+					<h5 id="5.1.7.2"><span>5.1.7.2.</span> Voir le dashboard</h5>
+					<br>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/SeenDashboard.png" height="40px"></td>
+							<td>
+								<p>"<b>Voir le Dashboard</b>" est un bouton rapide utilisé pour afficher directement la page sur <b>dashing.io</b>.</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<h5 id="5.1.7.3"><span>5.1.7.3.</span> Lier le Dashboard à une page</h5>
+					<br>
+					<p>"<b>Lier</b>" est un bouton rapide utilisé pour lier le nouveau dashboard à une page Octopus existante.</p>
+					<br>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/LinkPage.png" height="100px"></td>
+							<td>
+								<p>Pour ce faire, sélectionnez la page souhaitée et cliquez sur "<b>Lier</b>".</p>
+								<ul>
+									<li><i class="fa-solid fa-eye"></i> Permet de voir la page liée</li>
+									<li><i class="fa-solid fa-link-slash"></i> Permet de délier une page</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<h3 id="5.2"><span>5.2.</span> Gestion des différents widgets</h3>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/Widgets.png">
+					</div>
+					<br>
+					<p>Dans cette seconde section concernant la gestion des widgets, vous retrouverez tous les widgets ajoutés dans dashing.io.</p>
+					<br>
+					<h4 id="5.2.1"><span>5.2.1.</span> Ajout d'un nouveau widget</h4>
+					<p>Pour l'ajout d'un nouveau widget, rendez-vous sur le site : <a href="https://github.com/Shopify/dashing/wiki/Additional-Widgets">Github Dashing.io</a>. 
+					Choisissez ensuite le widget que vous désirez.</p>
+					<br>
+					<p><b>Téléchargez</b> ensuite le <b>dossier</b> ou les fichiers de votre widget. Vous devriez normalement avoir un fichier avec l'extension "<b>.coffee</b>", "<b>.html</b>" et "<b>.scss</b>".</p>	
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/GitHub.png">
+					</div>
+					<br>
+					<p>Le nom du dossier doit obligatoirement être celui stipulé dans la notice. Vous pouvez retrouver cette information dans un exemple de code comme ici :</p>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/DataView.png">
+					</div>
+					<br>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/Ajouter.png" height="100px"></td>
+							<td>
+								<p>Ensuite, pour ajouter un nouveau widget, cliquez sur la case "<b>Ajouter</b>". Un <b>pop-up</b> apparaîtra.</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<p>Il vous sera demandé plusieurs choses :</p>
+					<ul>
+						<li><b>Nom du Widget</b> : Ce nom sera exclusivement affiché sur Octopus pour plus de lisibilité.</li>
+						<li><b>NameID du Widget</b> : Ce nom doit obligatoirement correspondre au nom du dossier.</li>
+						<li><b>Le dossier du Widget</b> : Dossier contenant l'ensemble des fichiers pour la création du widget.</li>
+					</ul>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/AddWidget.png" style="width: 400px!important;">
+					</div>
+					<br>
+					<h4 id="5.2.2"><span>5.2.2.</span> Supprimer un widget</h4>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/DeleteWidget.png" height="100px"></td>
+							<td>
+								<p>Pour la <b>suppression</b> d'un <b>widget</b>, positionnez votre curseur au-dessus du widget et ensuite cliquez sur la <b>poubelle</b></p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<p>Une fois la suppression réalisée une notification apparaîtra.</p>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/SuccessWidget.png" style="width: 300px!important;">
+					</div>
+					<p>Une erreur peut apparaître. Elle signifie qu'il n'a pas réussi à supprimer le dossier du widget sur dashing.io. Vous pouvez le faire manuellement et ensuite recliquer sur « <b>Supprimer</b> ».</p>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/ErrorWidget.png" style="width: 300px!important;">
+					</div>
+					<h4 id="5.2.3"><span>5.2.3.</span> Paramètres supplémentaires liés au Widget</h4>
+					<br>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/DeleteWidget.png" height="100px"></td>
+							<td>
+								<p>Certains widgets requièrent des <b>paramètres supplémentaires</b> pour pouvoir être ajoutés. Positionnez votre curseur au-dessus du widget et cliquez sur l'icône <b>paramètre</b>. Un <b>pop-up</b> apparaîtra.</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/Option.png" style="width: 400px!important;">
+					</div>
+					<br>
+					<p>Cliquez sur le bouton "<b>+</b>" pour ajouter plus d'options et puis remplissez les champs suivants :</p>
+					<ul>
+						<li><b>La balise de l'option</b> : Nom du paramètre supplémentaire qui sera rajouté au widget.</li>
+						<li><b>Le Type de l'option</b> : Corresponds au type d'input qui sera demandé pour ce widget. Par exemple : un <b>Timer</b> demandera un input du type <b>DateTime</b></li>
+					</ul>
+					<br>
+					<div class="Info">
+						<h4><i class="fa-solid fa-circle-info"></i> Info</h4>
+						<p>Vous retrouverez les paramètres supplémentaires sur la page de téléchargement du widget (commençant souvent par "data-").<br>Par exemple :</p>
+						<div class="Step_Picture">
+							<img src="IMG/Step_Capture/MoreOption.png">
+						</div>
+						<br>
+					</div>
+					<br>
+					<h3 id="5.3"><span>5.3.</span> Gestion des Jobs</h3>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/Job.png">
+					</div>
+					<br>
+					<p>Les jobs manuels sont les différents fichiers code qui permettront la récupération des données ou la modification des widgets.</p>
+					<h4 id="5.3.1"><span>5.3.1.</span> Ajout d'un nouveau job</h4>
+					<h5 id="5.3.1.1"><span>5.3.1.1.</span> Manuellement</h5>
+					<br>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/DeleteWidget.png" height="100px"></td>
+							<td>
+								<p>Ensuite pour ajouter un nouveau Job, cliquez sur la case "<b>Ajouter un job</b>". Un pop-up apparaîtra.</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<p>Ce pop-up vous demandera de remplir les champs suivants :</p>
+					<ul>
+						<li><b>Nom du code</b> : Définit le nom du fichier code qui se trouvera sur dashing ainsi que sur Octopus.</li>
+						<li><b>Liste des Jobs</b> : Définit les différents Jobs qui pourront être utilisés. Cela doit impérativement correspondre au premier argument se trouvant dans "<b>send_event</b>" dans le code.</li>
+						<li><b>Le code</b> : C'est ici que vous pouvez ajouter votre code en Ruby afin de récolter les informations souhaitées.</li>
+					</ul>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/AddJob.png">
+					</div>
+					<br>
+					<p>Au niveau du code Ruby plusieurs variables sont importantes :</p>
+					<ul>
+						<li><b>SCHEDULER.every '10s' do</b> --> Permet d'exécuter le code toutes les 10 secondes dans cet exemple.</li>
+						<li><b>Send_event('Nom du Job', {INFO<font color="red">*</font>})</b> --> Permet l'envoi des informations au Widget.</li>
+					</ul>
+					<br>
+					<div class="Info">
+						<h4><i class="fa-solid fa-circle-info"></i> Info</h4>
+						<p><font color="red">*</font> Pour savoir ce qu'il faut mettre dans INFO, consultez le manuel du widget sur GitHub. <br> Exemple :</p>
+						<div class="Step_Picture">
+							<img src="IMG/Step_Capture/Event.png" style="width: 400px!important;">
+						</div>
+						<br>
+					</div>
+					<br>
+					<div class="Info">
+						<h4><i class="fa-solid fa-circle-info"></i> Info</h4>
+						<p>Pour l'ajout de plusieurs jobs, ajoutez bien un ";" entre chaque job.</p>
+					</div>
+					<br>
+					<div class="Warning">
+						<h4><i class="fa-solid fa-triangle-exclamation"></i> Attention</h4>
+						<p>Une fois votre nouveau job créé, n'oubliez pas de redémarrer Dashing.io</p>
+					</div>
+					<br>
+					<h5 id="5.3.1.2"><span>5.1.7.2.</span> Page Web</h5>
+					<br>
+					<div class="Update">
+						<h4><i class="fa-solid fa-wrench"></i> Future Update</h4>
+						<p>Fonctionnalité permettant d'éviter l'ajout de sonde Web avec la création de code manuellement</p>
+					</div>
+					<br>
+					<h4 id="5.3.2"><span>5.3.2.</span> Modifier un job</h4>
+					<br>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/ModifJob.png" height="100px"></td>
+							<td>
+								<p>Pour <b>modifier</b> un <b>job</b>, positionnez votre curseur au-dessus du job et ensuite cliquez sur le <b>crayon</b>. Un pop-up apparaîtra.</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<p>Vous pouvez ensuite modifier les différentes informations comme le <b>code</b> et les différents <b>jobs</b> mais pas le <b>nom du fichier</b> qui doit rester le même.</p>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/EditJob.png" style="width: 400px!important;">
+					</div>
+					<br>
+					<div class="Info">
+						<h4><i class="fa-solid fa-circle-info"></i> Info</h4>
+						<p>Pour l'ajout de plusieurs jobs, ajoutez bien un ";" entre chaque job.</p>
+					</div>
+					<br>
+					<div class="Warning">
+						<h4><i class="fa-solid fa-triangle-exclamation"></i> Attention</h4>
+						<p>Une fois votre job modifié, n'oubliez pas de redémarrer Dashing.io</p>
+					</div>
+					<br>
+					<h4 id="5.3.3"><span>5.3.3.</span> Supprimer un job</h4>
+					<br>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/ModifJob.png" height="100px"></td>
+							<td>
+								<p>Pour la <b>suppression</b> d'un job, positionnez votre curseur au-dessus du <b>job</b> et ensuite cliquez sur la <b>poubelle</b>.</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+					<div class="Warning">
+						<h4><i class="fa-solid fa-triangle-exclamation"></i> Attention</h4>
+						<p>Une fois votre job supprimé, veillez à bien supprimer les widgets l’utilisant.</p>
+					</div>
+					<br>
+					<div class="Warning">
+						<h4><i class="fa-solid fa-triangle-exclamation"></i> Attention</h4>
+						<p>Une fois votre job modifié, n'oubliez pas de redémarrer Dashing.io</p>
+					</div>
+					<br>
+					<h2 id="6"><span>6.</span> Dashing.io</h2>
+					<br>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/dashing.png" height="200px"></td>
+							<td>
+								<b>Start : </b> Permet la démarrage de Dashing.io<br>
+								<b>Stop : </b> Permet l'arrêt de Dashing.io<br>
+								<b>Restart : </b> Permet le redémarrage de Dashing.io<br>
+								<b>Nouveau Token : </b> Permet de demander un nouveau Token Centreon.
+							</td>
+						</tr>
+					</table>
+					<h2 id="7"><span>7.</span> RemoteConfig</h2>
+					<br>
+					<p>L'onglet "RemoteConfig" permet de faire l'installation des différents paquets qui seront nécessaires afin d'afficher différentes pages contrôlées par l'application Octopus</p>
+					<div class="prerequisite">
+						<h4><i class="fa-solid fa-toolbox"></i> Prérequis</h4>
+						<ul>
+							<li>Un Raspberry PI</li>
+						</ul>
+					</div>
+					<br>
+					<p>Fournissez les informations de votre Rasbperry PI</p>
+					<ul>
+						<li>
+							<b>IP</b> : Adresse IP utilisée pour rentrer en contact avec la raspberry PI
+						</li>
+						<li>
+							<b>User</b> : Nom d'utilisateur utilisé
+						</li>
+						<li>
+							<b>Password</b> : Mot de passe de l'utilisateur choisi
+						</li>
+					</ul>
+					<br>
+					<p>Ensuite pour chaque écran que dispose votre raspberry PI entrer les informations suivantes :</p>
+					<ul>
+						<li>
+							<b>Type</b> :
+							<ul>
+								<li><b>TabRotator</b> : Permet d'utiliser l'extension TabRotator afin de pouvoir ajouter plusieurs onglets et les faire apparaître tous les X temps</li>
+								<li><b>Octopage</b> : Permet d'utiliser une URL OctoPage*</li>
+							</ul>
+						</li>
+						<li>
+							<b><i>Url*</i></b> : Url de la page que vous souhaitez afficher depuis Octopage
+						</li>
+					</ul>
+					<br>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/RemoteConfig.png">
+					</div>
+					<br>
+					<h2 id="8"><span>8.</span> Log</h2>
+					<p>La majorité des logs générés par Octopus se retrouve sur cette page. Elles sont organisées en 3 Parties :</p>
+					<ul>
+						<li><b>OctoLogin</b> : Liste tous les logs en provenance de l'extension OctoLogin</li>
+						<li><b>OctoSystem</b> : Liste tous les logs en provenance de dashing.io ou des requêtes comme la demande d'un nouveau token</li>
+						<li><b>Octopus</b> : Liste tous les logs en provenance de l'application Web comme chaque manipulation</li>
+					</ul>
+					<br>
+					<p>Plusieurs états pour les logs existent <font color="#7fb927">Success</font>, <font color="#ffa800">Warning</font>, <font color="#fe0000">Error</font>, <font color="#80ccfe">Info</font>.</p>
+					<br>
+					<p>Sur la page d'accueil, vous pouvez apercevoir 3 graphiques afin d'avoir une vue globale des différents états des pages de log.</p>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/LogHome.png">
+					</div>
+					<br>
+					<p>Afin de pouvoir afficher ces différents logs vous pouvez cliquer sur l'un des trois boutons se trouvant au-dessus des graphiques.</p>
+					<br>
+					<p>Tous les logs sont organisés de la même manière : <code>[Date Heure][Utilisateur][Etat:Source] Etat : Message</code></p>
+					<div class="Step_Picture">
+						<img src="IMG/Step_Capture/LogMoreInfo.png">
+					</div>
+					<br>
+					<table class="info">
+						<tr>
+							<td><img src="IMG/Step_Capture/Bouton.png" width="400px"></td>
+							<td><b>Filtre : </b> les différents boutons ci-contre vous permettront de filtrer le fichier log selon son état</td>
+						</tr>
+						<tr>
+							<td><img src="IMG/Step_Capture/DeleteLog.png" width="130px"></td>
+							<td>
+								Le bouton vider log permet de supprimer l'entièreté du fichier.
+								<br>
+								<font color="red">Cette action est irrévocable</font>
+							</td>
+						</tr>
+					</table>
+				</main>
+				<footer class="PrintFooter print">
+					<img src="IMG/Logo.png">
+				</footer>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
+
+
+
+
+
+<style type="text/css">
+	body{
+		background: #fff!important;
+	}
+
+	table.info{
+		width: 85%;
+		margin: auto;
+	}
+
+	table.info td{
+		padding: 5px;
+	}
+
+	div.Step_Picture{
+		width: 100%;
+		text-align: center;
+	}
+
+	div.Step_Picture img{
+		width: 80%;
+	}
+
+	ul{
+		margin-left: 30px;
+	}
+
+	div.prerequisite{
+		border: 2px solid #80ba28;
+		margin-left: 40px;
+		padding: 5px;
+	}
+
+	div.prerequisite h4{
+		color: #80ba28;
+		font-weight: bold;
+	}
+
+	div.Warning{
+		border: 2px solid #efad4d;
+		margin-left: 40px;
+		padding: 5px;
+	}
+
+	div.Warning h4{
+		color: #efad4d;
+		font-weight: bold;
+	}
+
+	div.Update,
+	div.Info{
+		border: 2px solid #5bc0de;
+		margin-left: 40px;
+		padding: 5px;
+	}
+
+	div.Update h4,
+	div.Info h4{
+		color: #5bc0de;
+		font-weight: bold;
+	}
+
+	main.BodyManuel{
+		padding: 20px;
+	}
+
+	h2{
+		color: #80BA27;
+		font-weight: bold;
+	}
+
+	span{
+		font-weight: bold;
+	}
+
+	h3{
+		color: #80BA27;
+		margin-left: 20px;
+	}
+
+	h4{
+		color: #80BA27;
+		margin-left: 40px;
+	}
+
+	h5{
+		color: #80BA27;
+		margin-left: 60px;
+	}
+
+	p{
+		margin-left: 40px;
+	}
+
+	footer.PrintFooter{
+		position: fixed;
+		z-index: -1;
+		bottom: 0;
+		right: 0;
+		text-align: center;
+	}
+
+	.print{
+		visibility: hidden;
+		display: none;
+	}
+
+	footer.PrintFooter img{
+		width: 50px;
+		height: 50px;
+	}
+
+	@media print {
+	   .noprint {
+	      visibility: hidden;
+	      display: none;
+	   }
+
+	   .print {
+	   	  visibility: visible;
+	   	  display: inherit;
+	   }
+	}
+</style>
+<script type="text/javascript">
+	var dropdown = document.getElementsByClassName("dropdown-btn");
+	var i;
+
+	for (i = 0; i < dropdown.length; i++) {
+	  dropdown[i].addEventListener("click", function() {
+	    this.classList.toggle("active");
+	    var dropdownContent = this.nextElementSibling;
+	    if (dropdownContent.style.display === "block") {
+	      dropdownContent.style.display = "none";
+	    } else {
+	      dropdownContent.style.display = "block";
+	    }
+	  });
+	}
+</script>
